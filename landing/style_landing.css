@@ -1,0 +1,122 @@
+*{
+    margin:0;
+    padding:0;
+    font-family: sans-serif;
+}
+
+menu{
+    width: 800px;
+    height: 30px;
+    background: gray;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    z-index: 100;
+    position: fixed;
+}
+
+menu img{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+}
+
+menu ul{
+    width:100%;
+    display: inline-block;
+    text-align: right;
+}
+
+menu ul a{
+    display: inline-block;
+}
+
+a:link {
+    color: whitesmoke;
+    font-weight: bold;
+}
+
+a:visited{
+    color: dimgray;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+menu ul li{
+    margin: 5px 10px;
+    list-style: none;
+}
+
+section{
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 800px;    
+}
+
+section:nth-child(even){
+    background: pink;    
+}
+
+section:nth-child(odd){
+    background: silver;
+}
+
+section#about{
+    padding-top: 30px;
+    height: 620px;
+}
+
+section#about > div{
+    width: 800px;
+}
+
+section#about img{
+    height: 600px;
+    width: 780px;
+    padding: 10px;
+}
+
+section#service{
+    height: 140px;
+}
+
+section#service > div{
+    width: 800px;
+}
+
+section#service img{
+    height: 120px;
+    width: 198px;
+    padding: 10px 32px;
+    display: inline-block;
+}
+
+section#reviews{
+    height: 150px;
+}
+
+section#reviews > div{
+    width: 800px; 
+    padding: 10px;
+}
+
+div#reviews{
+    background: whitesmoke;
+    padding: 10px;
+    margin-bottom: 5px;
+    width: 760px;
+    height: 20px; 
+    color: black;
+}
+
+section#info{
+    height: 80px;
+}
+
+section#info > div{
+    width: 800px; 
+    padding: 20px 40px;
+}

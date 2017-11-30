@@ -1,0 +1,91 @@
+
+div{
+  background: #aaa;
+  margin: 4px;
+  border: 1px solid #000;
+  display: block;
+}
+
+.com{
+  background: #fff;
+  border: 0;
+}
+
+.lr, .c, .in_1, .in_2, .in_6, .in_9, .in_10{
+  display: inline-block;
+}
+
+.in_10, .in_5{
+  background: #FBAFFC;
+}
+
+.in_1, .in_3, .in_6{
+  background: #C277C4;
+}
+
+.in_2, .in_7{
+  background: #3E083E;
+}
+
+.in_4, .in_9, .in_8{
+  background: #783E79;
+}
+
+.lr{
+  margin: 0;
+  width: 10%;
+  height: 260px;
+}
+
+.in_10{
+  margin: 0;
+  width: 10%;
+  height: 260px;
+}
+
+.c{
+  width: 78%;
+  height: 260px;
+}
+
+.in_1{
+  height: 90px;
+  width: 9%;
+}
+
+.in_2{
+  height: 90px;
+  width: 89%;
+}
+
+.in_3{
+  height: 90px;
+  width: 89%;
+}
+
+.in_4{
+  height: 150px;
+  width: 89%;
+}
+
+.in_5{
+  height: 90px;
+}
+
+.in_6{
+  height: 150px;
+  width: 48.6%;
+}
+
+.in_9{
+  height: 150px;
+  width: 48.6%;
+}
+
+.in_7{
+  height: 90px;
+}
+
+.in_8{
+  height: 90px;
+}

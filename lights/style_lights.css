@@ -1,0 +1,29 @@
+.light > div{
+  background: gray;
+  width: 80px;
+  height: 80px;
+  border-radius: 100%;
+  margin: 10px;
+}
+
+.light{
+  width: 100px;
+  height: 300px;
+  margin: 0;
+  background: black;
+  display: inline-block;
+}
+
+.light:nth-of-type(1):hover > div:nth-of-type(1){
+  background: red;
+}
+
+.light:nth-of-type(2):hover > div:nth-of-type(2){
+  background: yellow;
+}
+
+.light:nth-of-type(3):hover > div:nth-of-type(3){
+  background: green;
+}
+
+
