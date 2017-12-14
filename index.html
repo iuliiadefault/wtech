@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>An Anonymous Pen on CodePen</title>
+  
+  
+  
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+  <html>
+<head>
+  <meta charset="utf-8">
+  <title> Формы</title>
+</head>
+<body>
+  <form action="http://ya.ru/" method="GET" target="_blank">
+    <label for="login">Ваш логин:</label>
+    <input required type="text" name="login" id="login" placeholder="Твой логин">
+    </br>
+    <label for="password">Ваш пароль:</label>
+    <input required type="password" name="pass" id="pass" placeholder="Твой пароль">
+    </br>
+  <!-- Pop-up -->
+    <label for="popup">Открыть pop-up</label>
+    <input type="checkbox" name="popup" id="popup" checked>
+    <div class="popup">
+      <div class="text">
+        <h1>Hello, world!</h1>
+        <p>I's cheating!</p>
+        <label for="popup">Закрыть pop-up</label>
+      </div>
+    </div>
+  <!-- -->
+    </br>
+    <label>Ваш пол:</label>
+    </br>
+    <label for="male" class="male">Мужчина</label>
+    <input type="radio" name="sex" id="male" checked value="1"> 
+    </br>
+    <label for="male" class="male">Женщина</label>
+    <input type="radio" name="sex" id="female" value="0">  
+    </br> 
+    <label for="male" class="male">Не определился</label>
+    <input type="radio" name="sex" id="notstated" value="0" disabled> 
+    </br>
+    <input type="hidden" name="action" value="getPageNumber"> 
+    <select name="month" id="month" multiple>
+      <option value="1">Январь</option>
+      <option value="2">Февраль</option>
+      <option value="3">Март</option>
+      <option value="4">Апрель</option>
+      <option value="5">Май</option>
+      <option value="6">Июнь</option>
+      <option value="7">Июль</option>
+      <option value="8">Август</option>
+      <option value="9">Сентябрь</option>
+      <option value="10">Октябрь</option>
+      <option value="11">Ноябрь</option>
+      <option value="12" selected>Декабрь</option>
+    </select>
+    </br>
+    <label for="email">Ваш email:</label>
+    <input required maxlength="3" type="email" name="email" id="email" placeholder="Твоя почта"> 
+    </br>
+    <button class="button">Яндекс</button>
+    <button class="button" formaction="https://google.ru" formmethod="post" formtarget="_self">Google</button>
+    <input class="button" type="submit">
+    <input class="button" type="reset">
+  </form>
+</body>
+</html>
+  
+  
+</body>
+</html>
